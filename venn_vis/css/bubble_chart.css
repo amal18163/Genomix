@@ -1,0 +1,163 @@
+body {
+  margin: 0 auto;
+  font-family: "Raleway", sans-serif;
+}
+
+#all_filters {
+  width: 956.65
+  margin: 0;
+  margin-bottom: 160px;
+  visibility: hidden;
+}
+
+.button_and_menu {
+  display: inline;
+  width: 33%;
+  float: left;
+  margin-right: 15px;
+}
+
+/*dark blue: #2C3646;
+  gray: #7C8491
+  light blue: #D7E1E5;
+  light orange: #F5E2D0
+  brown: #9B887D
+*/
+
+
+#all_filters button {
+  padding: 15px;
+  margin: 15px 0;
+  width: 280px;
+  transform: skew(-10deg);
+  -webkit-transform: skew(-10deg);
+  -moz-transform: skew(-10deg);
+  background-color: #D7E1E5;
+  text-align: center;
+  font-size: large;
+}
+
+#all_filters select {
+  display: block;
+  visibility: hidden;
+  width: 280px;
+}
+
+/*#category_sort {
+  margin-top: 120px;
+  width: 200px;
+  float: right;
+  border: 4px solid #000;
+  padding: 15px;
+}*/
+
+
+a, a:visited, a:active {
+  color: #444;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1500px;
+}
+
+.button {
+  min-width: 130px;
+  padding: 4px 5px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 13px;
+  border: 1px solid #e0e0e0;
+  text-decoration: none;
+}
+
+.button.active {
+  background: #000;
+  color: #fff;
+}
+
+#vis {
+  width: 1200px;
+  height: 860px;
+}
+
+#variant_info {
+  width: 270px;
+  padding: 15px;
+  float: right;
+  background-color: #f2f2f2;
+  font-size: small;
+}
+
+#variant_info h1 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+#instructions, #clicked_info {
+  width: 230px;
+  margin: 0 auto;
+  border:2px solid #aaa;
+  padding: 15px;
+  background-color: #fff;
+}
+
+#instructions h1, #variant_name {
+  font-size: 16px;
+  text-align: left;
+  border-bottom: 2px solid #aaa;
+  padding: 15px;
+  margin: -15px;
+  background-color: #f2f2f2;
+}
+
+#instructions p, #content {
+  margin-top: 30px;
+}
+
+#clicked_info {
+  display: none;
+}
+
+#variant_sum {
+  height: 300px;
+}
+
+
+
+
+#toolbar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.year {
+  font-size: 40px;
+  fill: #aaa;
+  cursor: default;
+}
+
+.tooltip {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+  -moz-border-radius:5px;
+	border-radius: 5px;
+  border: 2px solid #000;
+  background: #fff;
+	opacity: .9;
+  color: black;
+	padding: 10px;
+	width: 300px;
+	font-size: 12px;
+	z-index: 10;
+}
+
+.tooltip .title {
+	font-size: 13px;
+}
+
+.tooltip .name {
+  font-weight:bold;
+}
