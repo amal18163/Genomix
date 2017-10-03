@@ -5,7 +5,7 @@ This interactive visualization was deployed as part of a study conducted by the 
 Demo Link: http://cs.wellesley.edu/~atidjani/PGHCI/venn_vis/index.html
 
 # Features
-1) Filtering Genes:
+1) Filtering Genes://
    Users can filter genes by category (i.e. blood, metabolism, cancer), health effect, and certainty of evidence.
 
 2) Update Informational Sidebar on Click:
